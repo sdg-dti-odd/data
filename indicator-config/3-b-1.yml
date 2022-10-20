@@ -17,16 +17,16 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.3-b-1-title
+graph_title: 'Exemple de présentation de données'
 graph_titles: []
 graph_type: line
-indicator_name: global_indicators.3-b-1-title
+indicator_name: 'À déterminer'
 indicator_number: '3.b.1'
 national_geographical_coverage: ''
 page_content: ''
 permalink: ''
 precision: []
-reporting_status: notstarted
+reporting_status: complete
 sort: ''
 standalone: false
 tags: []
