@@ -13,16 +13,15 @@
 3-1-3-qc-issue: Favoriser l'accès à de saines habitudes de vie
 3-2-1-qc-issue: Assurer la sécurité des personnes en cas de catastrophes naturelles et anthropiques
 3-2-2-qc-issue: Prévenir la criminalité
-4-1-qc-short: CULTURE ET PATRIMOINE
-4-1-1-qc-issue: Favoriser la connaissance et l’accès à la culture
-4-1-2-qc-issue: Protéger le patrimoine culturel, paysager et bâti
+4-1-qc-short: En réflexion
+4-1-1-qc-issue:
 5-1-qc-short: En réflexion.
 5-1-1-qc-issue: 
 6-1-qc-short: EAU POTABLE
 6-2-qc-short: EAUX USÉES
-6-1-1-qc-issue: Réduire la quantité d’eau potable distribuée 
-6-1-2-qc-issue: Réduire les occurrences d’avis d’ébullition ou de non-consommation de plus d’un an
-6-2-1-qc-issue: Se conformer aux exigences règlementaires d’assainissement des eaux usées
+6-1-1-qc-issue: Assurer l’accès à une eau de qualité et en quantité suffisante pour la population 
+6-1-2-qc-issue: Assurer l’adoption de pratiques visant l’économie et l’utilisation durable d’eau 
+6-2-1-qc-issue: Être conforme aux standards de traitement des eaux usées
 6-2-2-qc-issue: Réduire les déversements dérogatoires et les surverses
 7-1-qc-short: ÉNERGIE
 7-1-1-qc-issue: Favoriser l’utilisation d’énergie renouvelable
@@ -38,28 +37,38 @@
 9-1-4-qc-issue: Appuyer les entreprises d’économie sociale
 9-1-5-qc-issue: Appuyer la création et le maintien de services de proximité
 9-1-6-qc-issue: Implanter des infrastructures résilientes favorisant l’innovation et contribuant à la circularité des ressources et à la réduction de la quantité de matières résiduelles éliminées
-10-1-qc-short: POLITIQUE SOCIALE
-10-2-qc-short: LOGEMENT ET HABITATION
+10-1-qc-short: COHÉSION SOCIALE
 10-1-1-qc-issue: 'Développer des milieux de vie accueillants, accessibles et inclusifs : familles, aînés, personnes avec un handicap, nouveaux arrivants'
-10-2-1-qc-issue: Favoriser l’accès au logement social, collectif et abordable
-11-1-qc-short: AMÉNAGEMENT ET URBANISME
-11-1-1-qc-issue: Établir des règles d’aménagement qui intègrent des mesures de lutte contre les changements climatiques
-11-1-2-qc-issue: Établir des règles d’aménagement qui intègrent l’efficacité énergétique
-11-1-3-qc-issue: Établir des règles d’aménagement qui intègrent la réduction de la consommation des ressources
-11-1-4-qc-issue: Établir des règles d’aménagement qui intègrent l’équilibre écologique
-11-1-5-qc-issue: Établir des règles d’aménagement qui intègrent la protection de la biodiversité
-11-1-6-qc-issue: Établir des règles d’aménagement qui intègrent la sécurité des personnes et des biens
-11-1-7-qc-issue: Établir des règles d’aménagement qui intègrent la santé publique
-11-1-8-qc-issue: Établir des règles d’aménagement qui intègrent l’attractivité
-11-1-9-qc-issue: Établir des règles d’aménagement qui intègrent la compétitivité
-11-1-10-qc-issue: Établir des règles d’aménagement qui intègrent l’efficience économique
-11-1-11-qc-issue: Établir des règles d’aménagement qui intègrent la dynamique démographique
-11-1-12-qc-issue: Établir des règles d’aménagement qui intègrent la cohésion sociale
-11-1-13-qc-issue: Établir des règles d’aménagement qui intègrent la solidarité
-11-1-14-qc-issue: Établir des règles d’aménagement qui intègrent l’identité territoriale
-11-1-15-qc-issue: Établir des règles d’aménagement qui intègrent l’acceptabilité sociale
+11-1-qc-short: LOGEMENT ET HABITATION
+11-2-qc-short: MOBILITÉ DES PERSONNES ET TRANSPORT DE MARCHANDISE
+11-3-qc-short: AMÉNAGEMENT ET URBANISME
+11-4-qc-short: CULTURE ET PATRIMOINE
+11-1-1-qc-issue: Favoriser l’accès au logement social, collectif et abordable
+11-2-1-qc-issue: Favoriser une mobilité efficace, sécuritaire, pérenne, équitable, intégrée au milieu et compatible avec la santé humaine et les écosystèmes
+11-2-2-qc-issue: Favoriser un mobilité qui limite la consommation d’espace et de ressources
+11-2-3-qc-issue: Favoriser un mobilité qui donne et facilite l’accès
+11-2-4-qc-issue: Favoriser un mobilité qui favorise le dynamisme économique, est socialement responsable et respecte l’intégrité de l’environnement
+11-3-1-qc-issue: Établir des règles d’aménagement qui intègrent des mesures de lutte contre les changements climatiques
+11-3-2-qc-issue: Établir des règles d’aménagement qui intègrent l’efficacité énergétique
+11-3-3-qc-issue: Établir des règles d’aménagement qui intègrent la réduction de la consommation des ressources
+11-3-4-qc-issue: Établir des règles d’aménagement qui intègrent l’équilibre écologique
+11-3-5-qc-issue: Établir des règles d’aménagement qui intègrent la protection de la biodiversité
+11-3-6-qc-issue: Établir des règles d’aménagement qui intègrent la sécurité des personnes et des biens
+11-3-7-qc-issue: Établir des règles d’aménagement qui intègrent la santé publique
+11-3-8-qc-issue: Établir des règles d’aménagement qui intègrent l’attractivité
+11-3-9-qc-issue: Établir des règles d’aménagement qui intègrent la compétitivité
+11-3-10-qc-issue: Établir des règles d’aménagement qui intègrent l’efficience économique
+11-3-11-qc-issue: Établir des règles d’aménagement qui intègrent la dynamique démographique
+11-3-12-qc-issue: Établir des règles d’aménagement qui intègrent la cohésion sociale
+11-3-13-qc-issue: Établir des règles d’aménagement qui intègrent la solidarité
+11-3-14-qc-issue: Établir des règles d’aménagement qui intègrent l’identité territoriale
+11-3-15-qc-issue: Établir des règles d’aménagement qui intègrent l’acceptabilité sociale
+11-4-1-qc-issue: Favoriser la connaissance et l’accès à la culture
+11-4-2-qc-issue: Protéger le patrimoine culturel, paysager et bâti
 12-1-qc-short: CONSOMMATION ET PRODUCTION RESPONSABLES
+12-2-qc-short: GESTION DES MATIÈRES RÉSIDUELLES
 12-1-1-qc-issue: Adopter des règles d’acquisition responsable et des initiatives visant à réduire l’usage d’articles à usage unique
+12-2-1-qc-issue: Réduire la quantité de matières résiduelles
 13-1-qc-short: CHANGEMENTS CLIMATIQUES
 13-1-1-qc-issue: Adopter des mesures de réduction des émissions de gaz à effet de serre
 13-1-2-qc-issue: Adopter des mesures d’adaptation et de résilience aux changements climatiques
