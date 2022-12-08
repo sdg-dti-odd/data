@@ -12,12 +12,12 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Année"
           },
           {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]
@@ -26,5 +26,5 @@
   ],
   "profile": "data-package",
   "name": "13-1-1",
-  "title": "Nombre de personnes décédées, disparues ou directement touchées lors de catastrophes, pour 100 000 personnes"
+  "title": "Indicator 13.1.1"
 }

@@ -12,12 +12,12 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           },
           {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]
@@ -26,5 +26,5 @@
   ],
   "profile": "data-package",
   "name": "13-1-1",
-  "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population"
+  "title": "Indicator 13.1.1"
 }
