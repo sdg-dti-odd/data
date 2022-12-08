@@ -57,8 +57,14 @@ inputs:
     # need to change this setting. It is intended for sites where the data needs
     # to be "built" before being processed by sdg-build.
     git_data_dir: data
-  # - class: InputSdmxMeta
-  #   meta_suffix: __GLOBAL
+    
+  - class: InputCkan
+    endpoint: "https://www.donneesquebec.ca/recherche/api/3/action/datastore_search" #link to données qc endpoint
+    indicator_id_map: {
+      '6005d7d0-47ae-4c23-b976-ae4acf5ab8e7&fields="_id","Annee","Total MQA"':'13-1-1' #Mauvais Qualité de l'Air et Smog
+      }
+    year_column: "Annee" #The name of the column will be changed to 'Year'
+    value_column: "Total MQA" #The name of the column will be changed to 'Value'
 
 # Translations
 # ------------

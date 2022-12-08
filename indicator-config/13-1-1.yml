@@ -17,16 +17,20 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.13-1-1-title
+graph_title: Nombre de jours de mauvaise qualité de l'air (MQA) par année
 graph_titles: []
-graph_type: line
-indicator_name: global_indicators.13-1-1-title
+graph_type: bar
+indicator_name: Nombre de jours de mauvaise qualité de l'air (MQA) à Montréal
 indicator_number: '13.1.1'
-national_geographical_coverage: ''
+national_geographical_coverage: 'Montréal'
 page_content: ''
 permalink: ''
 precision: []
-reporting_status: notstarted
+reporting_status: complete
 sort: ''
+sources:
+  - organisation: Données Québec
+    url: "https://www.donneesquebec.ca/recherche/dataset/vmtl-rsqa-bilans-annuels-qualite-air/resource/6005d7d0-47ae-4c23-b976-ae4acf5ab8e7"
+    url_text: "rsqa - Mauvais Qualité de l'Air et Smog"
 standalone: false
 tags: []
