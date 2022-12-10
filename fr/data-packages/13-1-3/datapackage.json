@@ -12,8 +12,24 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Année"
+          },
+          {
+            "name": "Municipalités",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Québec",
+                "Gatineau",
+                "Montréal",
+                "Saguenay",
+                "Sherbrooke",
+                "Laval",
+                ""
+              ]
+            },
+            "title": "Municipalités"
           },
           {
             "name": "Value",
@@ -26,5 +42,5 @@
   ],
   "profile": "data-package",
   "name": "13-1-3",
-  "title": "Proportion d’administrations locales ayant adopté et mis en place des stratégies locales de réduction des risques de catastrophe, conformément aux stratégies suivies à l’échelle nationale"
+  "title": "Qualité de l'air dans les municipalités"
 }
