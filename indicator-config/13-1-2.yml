@@ -17,16 +17,16 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.13-1-2-title
+graph_title: Compte de flux physique des émissions de gaz à effet de serre au Québec
 graph_titles: []
 graph_type: line
-indicator_name: global_indicators.13-1-2-title
+indicator_name: Compte de flux physique des émissions de gaz à effet de serre au Québec
 indicator_number: '13.1.2'
 national_geographical_coverage: ''
 page_content: ''
 permalink: ''
 precision: []
-reporting_status: notstarted
+reporting_status: complete
 sort: ''
 standalone: false
 tags: []

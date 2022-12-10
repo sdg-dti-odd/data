@@ -1,0 +1,88 @@
+SDG_GOAL: >-
+  Objectif 13: Prendre d’urgence des mesures pour lutter contre les changements climatiques et leurs répercussions
+SDG_TARGET: >-
+  ## CHANGEMENTS CLIMATIQUES
+
+  Enjeu 13.1: Adopter des mesures de réduction des émissions de gaz à effet de serre
+SDG_INDICATOR: >-
+  Indicateur 13.1.2: Compte de flux physique des émissions de gaz à effet de serre au Québec
+
+SDG_SERIES_DESCR: >-
+
+META_LAST_UPDATE: >-
+
+SDG_RELATED_INDICATORS: >-
+
+SDG_CUSTODIAN_AGENCIES: >-
+
+CONTACT_ORGANISATION: >-
+
+CONTACT_NAME: >-
+
+ORGANISATION_UNIT: >-
+
+CONTACT_FUNCT: >-
+
+CONTACT_PHONE: >-
+
+CONTACT_MAIL: >-
+
+CONTACT_EMAIL: >-
+
+STAT_CONC_DEF: >- 
+
+UNIT_MEASURE: >-
+  Kilotonnes
+
+CLASS_SYSTEM: >-
+
+SOURCE_TYPE: >-
+  ## Statistique Canada 
+  
+  
+  [Tableau 38-10-0097-01 Compte de flux physique des émissions de gaz à effet de serre](https://www150.statcan.gc.ca/t1/tbl1/fr/tv.action?pid=3810009701)
+
+  
+  Fréquence : Annuelle
+
+
+  Date de diffusion : 2021-12-13
+COLL_METHOD: >-
+
+FREQ_COLL: >-
+
+REL_CAL_POLICY: >-
+
+DATA_SOURCE: >-
+
+COMPILING_ORG: >-
+
+INST_MANDATE: >-
+
+RATIONALE: >-
+
+REC_USE_LIM: >-
+
+DATA_COMP: >-
+
+DATA_VALIDATION: >-
+
+ADJUSTMENT: >-
+
+IMPUTATION: >-
+
+REG_AGG: >-
+
+DOC_METHOD: >-
+
+QUALITY_MGMNT: >-
+
+QUALITY_ASSURE: >-
+
+QUALITY_ASSMNT: >-
+
+COVERAGE: >-
+
+COMPARABILITY: >-
+
+OTHER_DOC: >-
