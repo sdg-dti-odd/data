@@ -12,11 +12,23 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Secteur",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, industries et ménages",
+                "Total, industries",
+                "Total, ménages",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       }
@@ -24,5 +36,5 @@
   ],
   "profile": "data-package",
   "name": "13-1-2",
-  "title": "global_indicators.13-1-2-title"
+  "title": "Compte de flux physique des émissions de gaz à effet de serre au Québec"
 }

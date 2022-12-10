@@ -12,12 +12,25 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           },
           {
+            "name": "Secteur",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total, industries et ménages",
+                "Total, industries",
+                "Total, ménages",
+                ""
+              ]
+            },
+            "title": "Secteur"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]
@@ -26,5 +39,5 @@
   ],
   "profile": "data-package",
   "name": "13-1-2",
-  "title": "Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030"
+  "title": "Compte de flux physique des émissions de gaz à effet de serre au Québec"
 }
