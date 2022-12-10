@@ -7,7 +7,9 @@ data_notice_class: ''
 data_notice_heading: ''
 data_notice_text: ''
 data_show_map: false
-data_start_values: []
+data_start_values:
+  - field: Municipalités
+    value: "Québec"
 embedded_feature_footer: ''
 embedded_feature_html: ''
 embedded_feature_tab_title: ''
@@ -17,16 +19,16 @@ expected_disaggregations: []
 graph_annotations: []
 graph_limits: []
 graph_stacked_disaggregation: ''
-graph_title: global_indicators.13-1-3-title
+graph_title: Nombre de jours où la qualité de l'air était d'au moins 4/10
 graph_titles: []
 graph_type: line
-indicator_name: global_indicators.13-1-3-title
+indicator_name: Qualité de l'air dans les municipalités
 indicator_number: '13.1.3'
 national_geographical_coverage: ''
 page_content: ''
 permalink: ''
 precision: []
-reporting_status: notstarted
+reporting_status: complete
 sort: ''
 standalone: false
 tags: []
