@@ -25,7 +25,7 @@ class ExportPdf:
             shutil.rmtree('charts')
             os.mkdir('charts')
         indicators= self.__get_all_indicators()
-        indicators_by_goal: dict[str, list[str]] = self.__sort_indicators_by_goal(indicators)
+        indicators_by_goal = self.__sort_indicators_by_goal(indicators)
         
         first_page = FirstPage(self.__pdf, self.__page_width, self.__page_height, self.__municipalité, self.__site_url)
         first_page.export()
@@ -78,7 +78,7 @@ class ExportPdf:
             indicators_by_goal[goal_number].append(indicator)
         return indicators_by_goal
     
-    def __add_indicators(self, indicators: list[str], goal_number: str) -> None:
+    def __add_indicators(self, indicators: list, goal_number: str) -> None:
         for indicator in indicators:
             print(f"Processing {indicator}...")
             meta: dict = json.load(open(f"{self.__directory}/meta/{indicator}.json"))
