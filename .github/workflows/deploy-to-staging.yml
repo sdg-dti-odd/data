@@ -56,3 +56,9 @@ jobs:
         -H "Accept: application/vnd.github.everest-preview+json" \
         -H "Authorization: token ${{secrets.token}}" \
         --data '{"event_type": "rebuild-staging"}'
+    - name: Waiting 4 minutes for staging site deployment
+      run: |
+        sleep 240
+    - name: Build elv PDF
+      run: |
+        python scripts/build_pdf.py --site_url "https://sdg-dti-odd.github.io/site/" --municipalite "Municipalité" --directory "./_site/fr"
