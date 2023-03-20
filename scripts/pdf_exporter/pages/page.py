@@ -28,7 +28,7 @@ class Page(ABC):
         self._graph_width = self._column_width * 2 - self._column_margin
         self._graph_height = self._graph_width * 0.875
 
-    def _add_column_text(self, text, x_position, y_position, column_number = None) -> tuple[int, int]:
+    def _add_column_text(self, text, x_position, y_position, column_number = None):
         text_width_in_points = self._pdf.stringWidth(text, self._font, self._font_size)
         if text_width_in_points == 0:
             return x_position, y_position
@@ -49,7 +49,7 @@ class Page(ABC):
 
         return x_position, y_position
     
-    def _adjust_column_position(self, x_position, y_position, column_width = None) -> tuple[int, int]:
+    def _adjust_column_position(self, x_position, y_position, column_width = None):
         column_width = self._column_width if column_width is None else column_width
         distance_to_graph = (self._graph_height % self._font_size) + self._font_size*2
         if x_position == self._margin and y_position <= self._margin:
