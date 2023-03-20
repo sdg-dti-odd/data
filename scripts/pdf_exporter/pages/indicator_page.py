@@ -64,13 +64,13 @@ class IndicatorPage(Page):
             print("graph added")
         return
     
-    def _set_initial_text_position(self) -> tuple[int, int]:
+    def _set_initial_text_position(self):
         distance_to_graph: int = (self._graph_height % self._font_size) + self._font_size*2
         x_position: int = self._margin
         y_position: int = self._text_section_y_position - self._graph_height - distance_to_graph
         return x_position, y_position
     
-    def _add_section(self, title, text, x_position, y_position) -> tuple[int, int]:
+    def _add_section(self, title, text, x_position, y_position):
         text = f"{title}:\n\n{text}\n\n"
         self._pdf.setFont(self._font, self._font_size)
         y_position = 0 if y_position < self._margin + self._font_size*5 else y_position
