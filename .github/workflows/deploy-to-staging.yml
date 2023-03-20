@@ -20,6 +20,9 @@ on:
     branches:
       - develop
 
+permissions:
+  contents: write
+  
 jobs:
   build:
 
@@ -54,7 +57,7 @@ jobs:
       run: |
         curl -X POST https://api.github.com/repos/sdg-dti-odd/site/dispatches \
         -H "Accept: application/vnd.github.everest-preview+json" \
-        -H "Authorization: token ${{secrets.TOKEN}}" \
+        -H "Authorization: token ${{secrets.token}}" \
         --data '{"event_type": "rebuild-staging"}'
     - name: Waiting 4 minutes for staging site deployment
       run: |
