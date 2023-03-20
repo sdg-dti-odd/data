@@ -2,3 +2,4 @@ git+https://github.com/dougmet/yamlmd
 git+https://github.com/open-sdg/sdg-build@2.1.0
 reportlab==3.6.12
 frictionless==4.40.8
+lorem-text==2.1
