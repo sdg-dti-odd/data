@@ -12,7 +12,7 @@ class Graph:
         self._indicator_number = indicator_number
         self._site_url = site_url
         
-    def get_graph_path(self) -> str | None:
+    def get_graph_path(self) -> str:
         try:
             self._get_graph_element(self._indicator_number)
         except (TimeoutException, WebDriverException) as e:
