@@ -41,7 +41,8 @@ class ExportPdf:
             self.__add_indicators(indicators, goal_number)
 
         self.__pdf.save()
-        print(f"PDF exported to {self.__export_file_path}")
+        absolute_path = os.path.abspath(self.__export_file_path)
+        print("PDF saved to:", absolute_path)
         shutil.rmtree('charts')
         return
         
