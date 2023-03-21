@@ -50,18 +50,25 @@ jobs:
         BRANCH: gh-pages
         FOLDER: _site
         CLEAN: true
-    - name: Waiting 4 minutes for staging data deployment
+    - name: Waiting 2 minutes for staging data deployment
       run: |
-        sleep 240
+        sleep 120
     - name: Rebuild site
       run: |
         curl -X POST https://api.github.com/repos/sdg-dti-odd/site/dispatches \
         -H "Accept: application/vnd.github.everest-preview+json" \
         -H "Authorization: token ${{secrets.token}}" \
         --data '{"event_type": "rebuild-staging"}'
-    - name: Waiting 4 minutes for staging site deployment
+    - name: Waiting 2 minutes for staging site deployment
       run: |
-        sleep 240
+        sleep 120
     - name: Build elv PDF
       run: |
         python scripts/build_pdf.py --site_url "https://sdg-dti-odd.github.io/site/" --municipalite "Municipalité" --directory "./_site/fr"
+    - name: Redeploy to GitHub Pages
+      uses: JamesIves/github-pages-deploy-action@3.7.1
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH: gh-pages
+        FOLDER: _site
+        CLEAN: true
