@@ -3,6 +3,29 @@
 prose:
   metadata:
     meta:
+      ######### Analysis Metadata #########
+      - name: "analysis"
+        field:
+            element: text
+            label: "Analyse des tendances"
+            translation_key: metadata_fields.analysis
+            scope: analysis
+      
+      ######### Community Metadata #########
+      - name: "community"
+        field:
+            element: text
+            label: "Défis et progrès de la communauté"
+            translation_key: metadata_fields.community
+            scope: community
+
+      ######### Initiatives Metadata #########
+      - name: "initiatives"
+        field:
+            element: text
+            label: "Initiatives"
+            translation_key: metadata_fields.initiatives
+            scope: initiatives
       ######### Global Metadata #########
 #      - name: SDG_INDICATOR_INFO__GLOBAL
 #        field:
@@ -993,4 +1016,11 @@ prose:
             label: UN designated tier
             translation_key: metadata_fields.un_designated_tier
             scope: global
+
+      ######### Quebec Metadata #########
+      - name: "quebec_issue"
+        field:
+            element: text
+            label: "Enjeux pour le Québec"
+            scope: quebec
   ignore: ['/scripts', '/.github']
