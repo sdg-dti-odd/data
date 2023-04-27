@@ -24,7 +24,7 @@ graph_title: 'Fréquence du faible revenu fondée sur la Mesure de faible revenu
 graph_titles: []
 graph_type: bar
 indicator_available: ''
-indicator_name: Proportion de la population vivant au-dessous du seuil de pauvreté fixe au niveau international, par sexe, âge, situation dans l’emploi et lieu de résidence (zone urbaine/zone rurale)
+indicator_name: Proportion de personnes sous la mesure de faible revenus (après impôts)
 indicator_number: 1.1.1
 national_geographical_coverage: ''
 page_content: ''
