@@ -1,0 +1,599 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+
+            <title>Disaggregation: Division de recensement - SDG data build documentation</title>
+
+            <script defer src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"></script>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/open-sdg/open-sdg-table@0.4.0/open-sdg-table.min.css">
+            <style>
+                .btn-primary {
+                    background-color: #00703c;
+                    padding: 8px 10px 7px;
+                    border: 2px solid transparent;
+                    border-radius: 0;
+                    color: #fff;
+                    box-shadow: 0 2px 0 #002d18;
+                    text-decoration: none;
+                }
+                .btn-primary:visited {
+                    color: #fff;
+                }
+                .btn-primary:hover, .btn-primary:not(:disabled):not(.disabled):active {
+                    background-color: #005a30;
+                    text-decoration: none;
+                    border: 2px solid transparent;
+                }
+                .btn-primary:focus:not(:active):not(:hover) {
+                    border-color: #fd0;
+                    color: #0b0c0c;
+                    background-color: #fd0;
+                    box-shadow: 0 2px 0 #0b0c0c;
+                }
+                a {
+                    color: #1D70B8;
+                    text-decoration: underline;
+                }
+                a:hover {
+                    color: #003078;
+                }
+                a:visited {
+                    color: #4c2c92;
+                }
+                .download-info {
+                    margin-left: 12px;
+                }
+                .table-striped tbody tr:nth-of-type(2n+1) {
+                    background-color: #f3f2f1;
+                }
+                #skiplink {
+                    position: absolute;
+                    top: 0;
+                    left: 50%;
+                    z-index: 10000;
+                    width: 250px;
+                    margin-left: -125px;
+                    padding: 10px;
+                    background: white;
+                    text-align: center;
+                    border: 1px solid #0b0c0c;
+                    color: #0b0c0c;
+                    display: block;
+                }
+                .sr-only-focusable:not(:focus):not(:focus-within) {
+                    position: absolute !important;
+                    width: 1px !important;
+                    height: 1px !important;
+                    padding: 0 !important;
+                    margin: -1px !important;
+                    overflow: hidden !important;
+                    clip: rect(0, 0, 0, 0) !important;
+                    white-space: nowrap !important;
+                    border: 0 !important;
+                }
+            </style>
+        </head>
+        <body>
+            <a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">SDG data build documentation</a>
+                </div>
+            </nav>
+            <main id="main-content" role="main">
+                <div class="container">
+                    <h1 style="margin:20px 0">Disaggregation: Division de recensement</h1>
+                    <div>
+                        
+        <div role="navigation" aria-describedby="contents-heading">
+            <h2 id="contents-heading">On this page</h2>
+            <ul>
+                <li><a href="#values-used">Values used in disaggregation</a></li>
+                <li><a href="#indicators-using">Indicators using disaggregation</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2 id="values-used" tabindex="-1">Values used in disaggregation</h2>
+            
+        <div class="my-3">
+            <a href="values--disaggregation--division-de-recensement.csv" role="button" class="btn btn-primary" aria-describedby="values--disaggregation--division-de-recensement">Download CSV of values used in this disaggregation</a>
+            <div id="values--disaggregation--division-de-recensement" class="download-info">Size: 1.7 kB</div>
+        </div>
+        
+            
+                <div class="total-rows">
+                    Total rows: <span class="total">83</span>
+                </div>
+                <table border="1" class="dataframe table table-striped table-bordered" id="values-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Value</th>
+      <th>Disaggregation combinations using this value</th>
+      <th>Number of indicators</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="disaggregation-value--abitibi-ouest.html">Abitibi-Ouest</a></td>
+      <td>14</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--abitibi.html">Abitibi</a></td>
+      <td>9</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--acton.html">Acton</a></td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--antoine-labelle.html">Antoine-Labelle</a></td>
+      <td>14</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--argenteuil.html">Argenteuil</a></td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--arthabaska.html">Arthabaska</a></td>
+      <td>13</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--avignon.html">Avignon</a></td>
+      <td>7</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--beauce-sartigan.html">Beauce-Sartigan</a></td>
+      <td>9</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--beauharnois-salaberry.html">Beauharnois-Salaberry</a></td>
+      <td>4</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--bellechasse.html">Bellechasse</a></td>
+      <td>13</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--bonaventure.html">Bonaventure</a></td>
+      <td>7</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--brome-missisquoi.html">Brome-Missisquoi</a></td>
+      <td>11</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--bécancour.html">Bécancour</a></td>
+      <td>8</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--charlevoix-est.html">Charlevoix-Est</a></td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--charlevoix.html">Charlevoix</a></td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--coaticook.html">Coaticook</a></td>
+      <td>8</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--communauté-maritime-des-îles-de-la-madeleine.html">Communauté maritime des Îles-de-la-Madeleine</a></td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--dautray.html">D'Autray</a></td>
+      <td>8</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--deux-montagnes.html">Deux-Montagnes</a></td>
+      <td>4</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--drummond.html">Drummond</a></td>
+      <td>11</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--francheville.html">Francheville</a></td>
+      <td>6</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--joliette.html">Joliette</a></td>
+      <td>6</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--kamouraska.html">Kamouraska</a></td>
+      <td>11</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--la-côte-de-beaupré.html">La Côte-de-Beaupré</a></td>
+      <td>4</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--la-côte-de-gaspé.html">La Côte-de-Gaspé</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--la-haute-côte-nord.html">La Haute-Côte-Nord</a></td>
+      <td>6</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--la-haute-gaspésie.html">La Haute-Gaspésie</a></td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--la-haute-yamaska.html">La Haute-Yamaska</a></td>
+      <td>4</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--la-jacques-cartier.html">La Jacques-Cartier</a></td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--la-matanie.html">La Matanie</a></td>
+      <td>6</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--la-matapédia.html">La Matapédia</a></td>
+      <td>5</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--la-mitis.html">La Mitis</a></td>
+      <td>5</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--la-nouvelle-beauce.html">La Nouvelle-Beauce</a></td>
+      <td>7</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--la-rivière-du-nord.html">La Rivière-du-Nord</a></td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--la-tuque.html">La Tuque</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--la-vallée-de-la-gatineau.html">La Vallée-de-la-Gatineau</a></td>
+      <td>13</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--la-vallée-de-lor.html">La Vallée-de-l'Or</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--la-vallée-du-richelieu.html">La Vallée-du-Richelieu</a></td>
+      <td>7</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--lac-saint-jean-est.html">Lac-Saint-Jean-Est</a></td>
+      <td>9</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--le-domaine-du-roy.html">Le Domaine-du-Roy</a></td>
+      <td>5</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--le-granit.html">Le Granit</a></td>
+      <td>15</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--le-haut-richelieu.html">Le Haut-Richelieu</a></td>
+      <td>12</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--le-haut-saint-françois.html">Le Haut-Saint-François</a></td>
+      <td>8</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--le-haut-saint-laurent.html">Le Haut-Saint-Laurent</a></td>
+      <td>8</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--le-rocher-percé.html">Le Rocher-Percé</a></td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--le-saguenay-et-son-fjord.html">Le Saguenay-et-son-Fjord</a></td>
+      <td>11</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--le-val-saint-françois.html">Le Val-Saint-François</a></td>
+      <td>10</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--les-appalaches.html">Les Appalaches</a></td>
+      <td>13</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--les-basques.html">Les Basques</a></td>
+      <td>6</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--les-collines-de-loutaouais.html">Les Collines-de-l'Outaouais</a></td>
+      <td>7</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--les-etchemins.html">Les Etchemins</a></td>
+      <td>10</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--les-jardins-de-napierville.html">Les Jardins-de-Napierville</a></td>
+      <td>8</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--les-laurentides.html">Les Laurentides</a></td>
+      <td>12</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--les-maskoutains.html">Les Maskoutains</a></td>
+      <td>13</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--les-pays-den-haut.html">Les Pays-d'en-Haut</a></td>
+      <td>4</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--les-sources.html">Les Sources</a></td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--lislet.html">L'Islet</a></td>
+      <td>11</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--lotbinière.html">Lotbinière</a></td>
+      <td>14</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--lérable.html">L'Érable</a></td>
+      <td>6</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--lîle-dorléans.html">L'Île-d'Orléans</a></td>
+      <td>5</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--manicouagan.html">Manicouagan</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--marguerite-dyouville.html">Marguerite-D'Youville</a></td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--maria-chapdelaine.html">Maria-Chapdelaine</a></td>
+      <td>7</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--maskinongé.html">Maskinongé</a></td>
+      <td>11</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--matawinie.html">Matawinie</a></td>
+      <td>14</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--memphrémagog.html">Memphrémagog</a></td>
+      <td>7</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--minganie-le-golfe-du-saint-laurent.html">Minganie--Le Golfe-du-Saint-Laurent</a></td>
+      <td>9</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--montcalm_.html">Montcalm</a></td>
+      <td>9</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--montmagny.html">Montmagny</a></td>
+      <td>8</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--mékinac.html">Mékinac</a></td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--nicolet-yamaska.html">Nicolet-Yamaska</a></td>
+      <td>11</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--papineau.html">Papineau</a></td>
+      <td>21</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--pierre-de-saurel.html">Pierre-De Saurel</a></td>
+      <td>7</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--pontiac_.html">Pontiac</a></td>
+      <td>12</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--portneuf.html">Portneuf</a></td>
+      <td>7</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--rimouski-neigette.html">Rimouski-Neigette</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--rivière-du-loup.html">Rivière-du-Loup</a></td>
+      <td>8</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--robert-cliche.html">Robert-Cliche</a></td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--roussillon.html">Roussillon</a></td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--rouville.html">Rouville</a></td>
+      <td>5</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--témiscamingue.html">Témiscamingue</a></td>
+      <td>11</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--témiscouata.html">Témiscouata</a></td>
+      <td>9</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--vaudreuil-soulanges.html">Vaudreuil-Soulanges</a></td>
+      <td>11</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+            <script type="text/javascript">
+            var sdgBuild = sdgBuild || {};
+            sdgBuild.tables = sdgBuild.tables || {};
+            sdgBuild.tables['values-table'] = [{"Value":"<a href=\"disaggregation-value--abitibi-ouest.html\">Abitibi-Ouest<\/a>","Disaggregation combinations using this value":14,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--abitibi.html\">Abitibi<\/a>","Disaggregation combinations using this value":9,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--acton.html\">Acton<\/a>","Disaggregation combinations using this value":3,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--antoine-labelle.html\">Antoine-Labelle<\/a>","Disaggregation combinations using this value":14,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--argenteuil.html\">Argenteuil<\/a>","Disaggregation combinations using this value":3,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--arthabaska.html\">Arthabaska<\/a>","Disaggregation combinations using this value":13,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--avignon.html\">Avignon<\/a>","Disaggregation combinations using this value":7,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--beauce-sartigan.html\">Beauce-Sartigan<\/a>","Disaggregation combinations using this value":9,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--beauharnois-salaberry.html\">Beauharnois-Salaberry<\/a>","Disaggregation combinations using this value":4,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--bellechasse.html\">Bellechasse<\/a>","Disaggregation combinations using this value":13,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--bonaventure.html\">Bonaventure<\/a>","Disaggregation combinations using this value":7,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--brome-missisquoi.html\">Brome-Missisquoi<\/a>","Disaggregation combinations using this value":11,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--b\u00e9cancour.html\">B\u00e9cancour<\/a>","Disaggregation combinations using this value":8,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--charlevoix-est.html\">Charlevoix-Est<\/a>","Disaggregation combinations using this value":3,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--charlevoix.html\">Charlevoix<\/a>","Disaggregation combinations using this value":3,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--coaticook.html\">Coaticook<\/a>","Disaggregation combinations using this value":8,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--communaut\u00e9-maritime-des-\u00eeles-de-la-madeleine.html\">Communaut\u00e9 maritime des \u00celes-de-la-Madeleine<\/a>","Disaggregation combinations using this value":2,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--dautray.html\">D'Autray<\/a>","Disaggregation combinations using this value":8,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--deux-montagnes.html\">Deux-Montagnes<\/a>","Disaggregation combinations using this value":4,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--drummond.html\">Drummond<\/a>","Disaggregation combinations using this value":11,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--francheville.html\">Francheville<\/a>","Disaggregation combinations using this value":6,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--joliette.html\">Joliette<\/a>","Disaggregation combinations using this value":6,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--kamouraska.html\">Kamouraska<\/a>","Disaggregation combinations using this value":11,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--la-c\u00f4te-de-beaupr\u00e9.html\">La C\u00f4te-de-Beaupr\u00e9<\/a>","Disaggregation combinations using this value":4,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--la-c\u00f4te-de-gasp\u00e9.html\">La C\u00f4te-de-Gasp\u00e9<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--la-haute-c\u00f4te-nord.html\">La Haute-C\u00f4te-Nord<\/a>","Disaggregation combinations using this value":6,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--la-haute-gasp\u00e9sie.html\">La Haute-Gasp\u00e9sie<\/a>","Disaggregation combinations using this value":2,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--la-haute-yamaska.html\">La Haute-Yamaska<\/a>","Disaggregation combinations using this value":4,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--la-jacques-cartier.html\">La Jacques-Cartier<\/a>","Disaggregation combinations using this value":2,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--la-matanie.html\">La Matanie<\/a>","Disaggregation combinations using this value":6,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--la-matap\u00e9dia.html\">La Matap\u00e9dia<\/a>","Disaggregation combinations using this value":5,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--la-mitis.html\">La Mitis<\/a>","Disaggregation combinations using this value":5,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--la-nouvelle-beauce.html\">La Nouvelle-Beauce<\/a>","Disaggregation combinations using this value":7,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--la-rivi\u00e8re-du-nord.html\">La Rivi\u00e8re-du-Nord<\/a>","Disaggregation combinations using this value":2,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--la-tuque.html\">La Tuque<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--la-vall\u00e9e-de-la-gatineau.html\">La Vall\u00e9e-de-la-Gatineau<\/a>","Disaggregation combinations using this value":13,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--la-vall\u00e9e-de-lor.html\">La Vall\u00e9e-de-l'Or<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--la-vall\u00e9e-du-richelieu.html\">La Vall\u00e9e-du-Richelieu<\/a>","Disaggregation combinations using this value":7,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--lac-saint-jean-est.html\">Lac-Saint-Jean-Est<\/a>","Disaggregation combinations using this value":9,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--le-domaine-du-roy.html\">Le Domaine-du-Roy<\/a>","Disaggregation combinations using this value":5,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--le-granit.html\">Le Granit<\/a>","Disaggregation combinations using this value":15,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--le-haut-richelieu.html\">Le Haut-Richelieu<\/a>","Disaggregation combinations using this value":12,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--le-haut-saint-fran\u00e7ois.html\">Le Haut-Saint-Fran\u00e7ois<\/a>","Disaggregation combinations using this value":8,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--le-haut-saint-laurent.html\">Le Haut-Saint-Laurent<\/a>","Disaggregation combinations using this value":8,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--le-rocher-perc\u00e9.html\">Le Rocher-Perc\u00e9<\/a>","Disaggregation combinations using this value":2,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--le-saguenay-et-son-fjord.html\">Le Saguenay-et-son-Fjord<\/a>","Disaggregation combinations using this value":11,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--le-val-saint-fran\u00e7ois.html\">Le Val-Saint-Fran\u00e7ois<\/a>","Disaggregation combinations using this value":10,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--les-appalaches.html\">Les Appalaches<\/a>","Disaggregation combinations using this value":13,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--les-basques.html\">Les Basques<\/a>","Disaggregation combinations using this value":6,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--les-collines-de-loutaouais.html\">Les Collines-de-l'Outaouais<\/a>","Disaggregation combinations using this value":7,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--les-etchemins.html\">Les Etchemins<\/a>","Disaggregation combinations using this value":10,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--les-jardins-de-napierville.html\">Les Jardins-de-Napierville<\/a>","Disaggregation combinations using this value":8,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--les-laurentides.html\">Les Laurentides<\/a>","Disaggregation combinations using this value":12,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--les-maskoutains.html\">Les Maskoutains<\/a>","Disaggregation combinations using this value":13,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--les-pays-den-haut.html\">Les Pays-d'en-Haut<\/a>","Disaggregation combinations using this value":4,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--les-sources.html\">Les Sources<\/a>","Disaggregation combinations using this value":3,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--lislet.html\">L'Islet<\/a>","Disaggregation combinations using this value":11,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--lotbini\u00e8re.html\">Lotbini\u00e8re<\/a>","Disaggregation combinations using this value":14,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l\u00e9rable.html\">L'\u00c9rable<\/a>","Disaggregation combinations using this value":6,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--l\u00eele-dorl\u00e9ans.html\">L'\u00cele-d'Orl\u00e9ans<\/a>","Disaggregation combinations using this value":5,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--manicouagan.html\">Manicouagan<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--marguerite-dyouville.html\">Marguerite-D'Youville<\/a>","Disaggregation combinations using this value":2,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--maria-chapdelaine.html\">Maria-Chapdelaine<\/a>","Disaggregation combinations using this value":7,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--maskinong\u00e9.html\">Maskinong\u00e9<\/a>","Disaggregation combinations using this value":11,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--matawinie.html\">Matawinie<\/a>","Disaggregation combinations using this value":14,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--memphr\u00e9magog.html\">Memphr\u00e9magog<\/a>","Disaggregation combinations using this value":7,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--minganie-le-golfe-du-saint-laurent.html\">Minganie--Le Golfe-du-Saint-Laurent<\/a>","Disaggregation combinations using this value":9,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--montcalm_.html\">Montcalm<\/a>","Disaggregation combinations using this value":9,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--montmagny.html\">Montmagny<\/a>","Disaggregation combinations using this value":8,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--m\u00e9kinac.html\">M\u00e9kinac<\/a>","Disaggregation combinations using this value":3,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--nicolet-yamaska.html\">Nicolet-Yamaska<\/a>","Disaggregation combinations using this value":11,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--papineau.html\">Papineau<\/a>","Disaggregation combinations using this value":21,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--pierre-de-saurel.html\">Pierre-De Saurel<\/a>","Disaggregation combinations using this value":7,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--pontiac_.html\">Pontiac<\/a>","Disaggregation combinations using this value":12,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--portneuf.html\">Portneuf<\/a>","Disaggregation combinations using this value":7,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--rimouski-neigette.html\">Rimouski-Neigette<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--rivi\u00e8re-du-loup.html\">Rivi\u00e8re-du-Loup<\/a>","Disaggregation combinations using this value":8,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--robert-cliche.html\">Robert-Cliche<\/a>","Disaggregation combinations using this value":3,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--roussillon.html\">Roussillon<\/a>","Disaggregation combinations using this value":1,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--rouville.html\">Rouville<\/a>","Disaggregation combinations using this value":5,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--t\u00e9miscamingue.html\">T\u00e9miscamingue<\/a>","Disaggregation combinations using this value":11,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--t\u00e9miscouata.html\">T\u00e9miscouata<\/a>","Disaggregation combinations using this value":9,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--vaudreuil-soulanges.html\">Vaudreuil-Soulanges<\/a>","Disaggregation combinations using this value":11,"Number of indicators":1}];
+            </script>
+            
+        </div>
+        <div>
+            <h2 id="indicators-using" tabindex="-1">Indicators using disaggregation</h2>
+            
+        <div class="my-3">
+            <a href="indicators--disaggregation--division-de-recensement.csv" role="button" class="btn btn-primary" aria-describedby="indicators--disaggregation--division-de-recensement">Download CSV of indicators using this disaggregation</a>
+            <div id="indicators--disaggregation--division-de-recensement" class="download-info">Size: 17 Bytes</div>
+        </div>
+        
+            
+                <div class="total-rows">
+                    Total rows: <span class="total">1</span>
+                </div>
+                <table border="1" class="dataframe table table-striped table-bordered" id="indicators-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Indicator</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>#1-1-1</td>
+    </tr>
+  </tbody>
+</table>
+            <script type="text/javascript">
+            var sdgBuild = sdgBuild || {};
+            sdgBuild.tables = sdgBuild.tables || {};
+            sdgBuild.tables['indicators-table'] = [{"Indicator":"#1-1-1"}];
+            </script>
+            
+        </div>
+        
+                    </div>
+                </div>
+            </div>
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+            <script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/gh/open-sdg/open-sdg-table@0.4.0/open-sdg-table.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+            <script>
+            if (typeof sdgBuild !== 'undefined' && sdgBuild.tables) {
+                var tableIds = Object.keys(sdgBuild.tables);
+                for (var i = 0; i < tableIds.length; i++) {
+                    var tableId = tableIds[i];
+                    $('#' + tableId).openSdgTable(sdgBuild.tables[tableId]).find('td').each(function() {
+                        if (!isNaN($(this).text())) {
+                            $(this).css('text-align', 'right');
+                        }
+                    })
+                }
+            }
+            </script>
+        </html>
+        
