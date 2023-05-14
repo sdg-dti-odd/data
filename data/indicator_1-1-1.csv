@@ -1,7 +1,614 @@
-Year,Group,Value
-2015,A,1
-2015,B,3
-2015,,2
-2016,A,1
-2016,B,3
-2016,,2
+Year,Division de recensement,Subdivision de recensement,GeoCode,Value
+2020,Communauté maritime des Îles-de-la-Madeleine,Les Îles-de-la-Madeleine,2401023,10
+2020,Communauté maritime des Îles-de-la-Madeleine,Grosse-Île,2401042,10
+2020,Le Rocher-Percé,Sainte-Thérèse-de-Gaspé,2402010,14
+2020,Le Rocher-Percé,Port-Daniel--Gascons,2402047,16
+2020,La Côte-de-Gaspé,Grande-Vallée,2403020,12
+2020,La Haute-Gaspésie,Sainte-Madeleine-de-la-Rivière-Madeleine,2404005,28
+2020,La Haute-Gaspésie,Saint-Maxime-du-Mont-Louis,2404010,19
+2020,Bonaventure,Shigawake,2405010,22
+2020,Bonaventure,Hope Town,2405020,18
+2020,Bonaventure,New Carlisle,2405040,18
+2020,Bonaventure,Saint-Elzéar,2405050,16
+2020,Bonaventure,Caplan,2405060,15
+2020,Bonaventure,Saint-Alphonse,2405065,14
+2020,Bonaventure,Cascapédia--Saint-Jules,2405077,10
+2020,Avignon,Maria,2406005,10
+2020,Avignon,Nouvelle,2406020,15
+2020,Avignon,Escuminac,2406025,18
+2020,Avignon,Pointe-à-la-Croix,2406030,20
+2020,Avignon,Matapédia,2406045,19
+2020,Avignon,Saint-Alexis-de-Matapédia,2406050,18
+2020,Avignon,Saint-François-d'Assise,2406055,20
+2020,La Matapédia,Sainte-Florence,2407010,27
+2020,La Matapédia,Lac-au-Saumon,2407057,13
+2020,La Matapédia,Saint-Vianney,2407075,29
+2020,La Matapédia,Val-Brillant,2407080,14
+2020,La Matapédia,Sayabec,2407085,20
+2020,La Matanie,Les Méchins,2408005,25
+2020,La Matanie,Grosses-Roches,2408015,29
+2020,La Matanie,Sainte-Félicité,2408023,19
+2020,La Matanie,Saint-René-de-Matane,2408035,18
+2020,La Matanie,Saint-Ulric,2408073,13
+2020,La Matanie,Baie-des-Sables,2408080,13
+2020,La Mitis,Les Hauteurs,2409015,22
+2020,La Mitis,Saint-Gabriel-de-Rimouski,2409025,19
+2020,La Mitis,Sainte-Angèle-de-Mérici,2409035,18
+2020,La Mitis,Padoue,2409040,17
+2020,La Mitis,Sainte-Luce,2409092,11
+2020,Rimouski-Neigette,Esprit-Saint,2410005,26
+2020,Les Basques,Saint-Clément,2411005,16
+2020,Les Basques,Saint-Jean-de-Dieu,2411010,17
+2020,Les Basques,Sainte-Rita,2411015,21
+2020,Les Basques,Notre-Dame-des-Neiges,2411045,14
+2020,Les Basques,Saint-Mathieu-de-Rioux,2411050,15
+2020,Les Basques,Saint-Simon-de-Rimouski,2411055,14
+2020,Rivière-du-Loup,Saint-Cyprien,2412005,12
+2020,Rivière-du-Loup,Saint-Hubert-de-Rivière-du-Loup,2412010,12
+2020,Rivière-du-Loup,Saint-Antonin,2412015,8
+2020,Rivière-du-Loup,Saint-Modeste,2412020,7
+2020,Rivière-du-Loup,Saint-Épiphane,2412030,14
+2020,Rivière-du-Loup,L'Isle-Verte,2412043,16
+2020,Rivière-du-Loup,Cacouna,2412057,9
+2020,Rivière-du-Loup,Notre-Dame-du-Portage,2412080,9
+2020,Témiscouata,Rivière-Bleue,2413025,22
+2020,Témiscouata,Saint-Juste-du-Lac,2413040,20
+2020,Témiscouata,Auclair,2413045,17
+2020,Témiscouata,Biencourt,2413055,24
+2020,Témiscouata,Lac-des-Aigles,2413060,19
+2020,Témiscouata,Saint-Michel-du-Squatec,2413065,20
+2020,Témiscouata,Saint-Elzéar-de-Témiscouata,2413085,18
+2020,Témiscouata,Saint-Honoré-de-Témiscouata,2413090,16
+2020,Témiscouata,Saint-Athanase,2413100,16
+2020,Kamouraska,Mont-Carmel,2414005,16
+2020,Kamouraska,Saint-Bruno-de-Kamouraska,2414010,16
+2020,Kamouraska,Sainte-Hélène-de-Kamouraska,2414025,12
+2020,Kamouraska,Saint-Alexandre-de-Kamouraska,2414035,10
+2020,Kamouraska,Saint-André-de-Kamouraska,2414040,11
+2020,Kamouraska,Kamouraska,2414050,9
+2020,Kamouraska,Saint-Denis-De La Bouteillerie,2414055,11
+2020,Kamouraska,Rivière-Ouelle,2414065,9
+2020,Kamouraska,Saint-Pacôme,2414070,9
+2020,Kamouraska,Saint-Gabriel-Lalemant,2414075,13
+2020,Kamouraska,Saint-Onésime-d'Ixworth,2414080,14
+2020,Charlevoix-Est,Notre-Dame-des-Monts,2415025,12
+2020,Charlevoix-Est,Saint-Aimé-des-Lacs,2415030,8
+2020,Charlevoix-Est,Saint-Siméon,2415058,15
+2020,Charlevoix,Petite-Rivière-Saint-François,2416005,8
+2020,Charlevoix,L'Isle-aux-Coudres,2416023,14
+2020,Charlevoix,Les Éboulements,2416048,10
+2020,L'Islet,Saint-Omer,2417005,18
+2020,L'Islet,Saint-Adalbert,2417015,18
+2020,L'Islet,Saint-Marcel,2417020,17
+2020,L'Islet,Sainte-Félicité,2417025,26
+2020,L'Islet,Sainte-Perpétue,2417030,16
+2020,L'Islet,Tourville,2417035,21
+2020,L'Islet,Saint-Damase-de-L'Islet,2417040,17
+2020,L'Islet,Saint-Aubert,2417055,12
+2020,L'Islet,Saint-Roch-des-Aulnaies,2417065,10
+2020,L'Islet,Saint-Jean-Port-Joli,2417070,13
+2020,L'Islet,L'Islet,2417078,12
+2020,Montmagny,Saint-Just-de-Bretenières,2418005,27
+2020,Montmagny,Sainte-Lucie-de-Beauregard,2418020,20
+2020,Montmagny,Saint-Paul-de-Montminy,2418030,20
+2020,Montmagny,Sainte-Euphémie-sur-Rivière-du-Sud,2418035,21
+2020,Montmagny,Notre-Dame-du-Rosaire,2418040,26
+2020,Montmagny,Cap-Saint-Ignace,2418045,10
+2020,Montmagny,Saint-François-de-la-Rivière-du-Sud,2418060,14
+2020,Montmagny,Berthier-sur-Mer,2418065,8
+2020,Bellechasse,Armagh,2419037,19
+2020,Bellechasse,Saint-Nérée-de-Bellechasse,2419045,13
+2020,Bellechasse,Saint-Lazare-de-Bellechasse,2419050,11
+2020,Bellechasse,Sainte-Claire,2419055,9
+2020,Bellechasse,Saint-Anselme,2419062,9
+2020,Bellechasse,Saint-Henri,2419068,6
+2020,Bellechasse,Honfleur,2419070,9
+2020,Bellechasse,Saint-Gervais,2419075,9
+2020,Bellechasse,Saint-Raphaël,2419082,12
+2020,Bellechasse,Saint-Charles-de-Bellechasse,2419097,5
+2020,Bellechasse,Beaumont,2419105,5
+2020,Bellechasse,Saint-Michel-de-Bellechasse,2419110,7
+2020,Bellechasse,Saint-Vallier,2419117,9
+2020,L'Île-d'Orléans,Saint-François-de-l'Île-d'Orléans,2420005,9
+2020,L'Île-d'Orléans,Sainte-Famille-de-l'Île-d'Orléans,2420010,9
+2020,L'Île-d'Orléans,Saint-Jean-de-l'Île-d'Orléans,2420015,9
+2020,L'Île-d'Orléans,Saint-Laurent-de-l'Île-d'Orléans,2420020,5
+2020,L'Île-d'Orléans,Saint-Pierre-de-l'Île-d'Orléans,2420025,6
+2020,La Côte-de-Beaupré,Saint-Tite-des-Caps,2421005,16
+2020,La Côte-de-Beaupré,Saint-Ferréol-les-Neiges,2421010,8
+2020,La Côte-de-Beaupré,L'Ange-Gardien,2421040,5
+2020,La Côte-de-Beaupré,Boischatel,2421045,3
+2020,La Jacques-Cartier,Saint-Gabriel-de-Valcartier,2422025,4
+2020,La Jacques-Cartier,Lac-Beauport,2422040,3
+2020,La Nouvelle-Beauce,Frampton,2426005,12
+2020,La Nouvelle-Beauce,Vallée-Jonction,2426015,8
+2020,La Nouvelle-Beauce,Saint-Elzéar,2426022,6
+2020,La Nouvelle-Beauce,Scott,2426048,7
+2020,La Nouvelle-Beauce,Saint-Bernard,2426055,7
+2020,La Nouvelle-Beauce,Saint-Isidore,2426063,8
+2020,La Nouvelle-Beauce,Saint-Lambert-de-Lauzon,2426070,6
+2020,Robert-Cliche,Saint-Victor,2427008,11
+2020,Robert-Cliche,Saint-Alfred,2427015,8
+2020,Robert-Cliche,Saint-Joseph-des-Érables,2427050,10
+2020,Les Etchemins,Saint-Zacharie,2428005,12
+2020,Les Etchemins,Sainte-Aurélie,2428015,13
+2020,Les Etchemins,Saint-Prosper,2428020,10
+2020,Les Etchemins,Saint-Benjamin,2428025,12
+2020,Les Etchemins,Sainte-Rose-de-Watford,2428030,12
+2020,Les Etchemins,Saint-Louis-de-Gonzague,2428035,15
+2020,Les Etchemins,Sainte-Justine,2428045,11
+2020,Les Etchemins,Lac-Etchemin,2428053,12
+2020,Les Etchemins,Saint-Luc-de-Bellechasse,2428060,22
+2020,Les Etchemins,Saint-Magloire,2428075,20
+2020,Beauce-Sartigan,Saint-Théophile,2429005,15
+2020,Beauce-Sartigan,Saint-Gédéon-de-Beauce,2429013,10
+2020,Beauce-Sartigan,Saint-Évariste-de-Forsyth,2429025,15
+2020,Beauce-Sartigan,Saint-Honoré-de-Shenley,2429038,13
+2020,Beauce-Sartigan,Saint-Côme--Linière,2429057,11
+2020,Beauce-Sartigan,Saint-Philibert,2429065,7
+2020,Beauce-Sartigan,Saint-Benoît-Labre,2429100,9
+2020,Beauce-Sartigan,Saint-Éphrem-de-Beauce,2429112,11
+2020,Beauce-Sartigan,Saint-Simon-les-Mines,2429125,7
+2020,Le Granit,Notre-Dame-des-Bois,2430010,19
+2020,Le Granit,Piopolis,2430020,18
+2020,Le Granit,Frontenac,2430025,10
+2020,Le Granit,Milan,2430040,19
+2020,Le Granit,Nantes,2430045,13
+2020,Le Granit,Sainte-Cécile-de-Whitton,2430050,11
+2020,Le Granit,Audet,2430055,16
+2020,Le Granit,Saint-Robert-Bellarmin,2430070,10
+2020,Le Granit,Saint-Ludger,2430072,14
+2020,Le Granit,Lac-Drolet,2430080,13
+2020,Le Granit,Saint-Sébastien,2430085,12
+2020,Le Granit,Courcelles,2430090,20
+2020,Le Granit,Lambton,2430095,13
+2020,Le Granit,Saint-Romain,2430100,14
+2020,Le Granit,Stornoway,2430105,13
+2020,Les Appalaches,Beaulac-Garthby,2431008,16
+2020,Les Appalaches,Saint-Fortunat,2431030,30
+2020,Les Appalaches,Saint-Julien,2431035,16
+2020,Les Appalaches,Irlande,2431040,11
+2020,Les Appalaches,Saint-Joseph-de-Coleraine,2431045,18
+2020,Les Appalaches,Adstock,2431056,10
+2020,Les Appalaches,Sainte-Clotilde-de-Beauce,2431060,14
+2020,Les Appalaches,Saint-Adrien-d'Irlande,2431095,17
+2020,Les Appalaches,Saint-Jean-de-Brébeuf,2431100,15
+2020,Les Appalaches,Kinnear's Mills,2431105,10
+2020,Les Appalaches,East Broughton,2431122,14
+2020,Les Appalaches,Saint-Pierre-de-Broughton,2431135,13
+2020,Les Appalaches,Saint-Jacques-de-Leeds,2431140,16
+2020,L'Érable,Saint-Ferdinand,2432013,13
+2020,L'Érable,Sainte-Sophie-d'Halifax,2432023,11
+2020,L'Érable,Inverness,2432058,15
+2020,L'Érable,Lyster,2432065,14
+2020,L'Érable,Laurierville,2432072,14
+2020,L'Érable,Villeroy,2432085,19
+2020,Lotbinière,Saint-Sylvestre,2433007,12
+2020,Lotbinière,Sainte-Agathe-de-Lotbinière,2433017,17
+2020,Lotbinière,Saint-Patrice-de-Beaurivage,2433025,7
+2020,Lotbinière,Saint-Gilles,2433035,10
+2020,Lotbinière,Dosquet,2433040,12
+2020,Lotbinière,Saint-Agapit,2433045,8
+2020,Lotbinière,Saint-Flavien,2433052,11
+2020,Lotbinière,Saint-Janvier-de-Joly,2433065,10
+2020,Lotbinière,Val-Alain,2433070,17
+2020,Lotbinière,Saint-Apollinaire,2433090,6
+2020,Lotbinière,Saint-Antoine-de-Tilly,2433095,7
+2020,Lotbinière,Sainte-Croix,2433102,13
+2020,Lotbinière,Lotbinière,2433115,12
+2020,Lotbinière,Leclercville,2433123,16
+2020,Portneuf,Deschambault-Grondines,2434058,12
+2020,Portneuf,Saint-Casimir,2434078,18
+2020,Portneuf,Saint-Ubalde,2434090,16
+2020,Portneuf,Saint-Alban,2434097,15
+2020,Portneuf,Sainte-Christine-d'Auvergne,2434105,12
+2020,Portneuf,Saint-Léonard-de-Portneuf,2434115,11
+2020,Portneuf,Rivière-à-Pierre,2434135,18
+2020,Mékinac,Notre-Dame-de-Montauban,2435005,21
+2020,Mékinac,Sainte-Thècle,2435050,23
+2020,Mékinac,Trois-Rives,2435055,24
+2020,Francheville,Sainte-Anne-de-la-Pérade,2437205,16
+2020,Francheville,Batiscan,2437210,14
+2020,Francheville,Champlain,2437220,11
+2020,Francheville,Saint-Luc-de-Vincennes,2437225,15
+2020,Francheville,Saint-Stanislas,2437245,15
+2020,Francheville,Saint-Prosper-de-Champlain,2437250,16
+2020,Bécancour,Saint-Sylvère,2438005,20
+2020,Bécancour,Sainte-Marie-de-Blandford,2438015,16
+2020,Bécancour,Lemieux,2438020,26
+2020,Bécancour,Manseau,2438028,26
+2020,Bécancour,Sainte-Françoise,2438035,15
+2020,Bécancour,Fortierville,2438047,18
+2020,Bécancour,Saint-Pierre-les-Becquets,2438065,13
+2020,Bécancour,Deschaillons-sur-Saint-Laurent,2438070,16
+2020,Arthabaska,Notre-Dame-de-Ham,2439015,17
+2020,Arthabaska,Saint-Rémi-de-Tingwick,2439020,14
+2020,Arthabaska,Tingwick,2439025,13
+2020,Arthabaska,Chesterville,2439030,13
+2020,Arthabaska,Sainte-Hélène-de-Chester,2439035,17
+2020,Arthabaska,Saint-Norbert-d'Arthabaska,2439043,12
+2020,Arthabaska,Saint-Albert,2439085,10
+2020,Arthabaska,Sainte-Élizabeth-de-Warwick,2439090,11
+2020,Arthabaska,Sainte-Clotilde-de-Horton,2439117,14
+2020,Arthabaska,Saint-Samuel,2439130,13
+2020,Arthabaska,Saint-Valère,2439135,9
+2020,Arthabaska,Maddington Falls,2439165,19
+2020,Arthabaska,Saint-Louis-de-Blandford,2439170,14
+2020,Les Sources,Saint-Adrien,2440010,20
+2020,Les Sources,Wotton,2440017,16
+2020,Les Sources,Saint-Georges-de-Windsor,2440032,11
+2020,Le Haut-Saint-François,Saint-Isidore-de-Clifton,2441012,19
+2020,Le Haut-Saint-François,Chartierville,2441020,19
+2020,Le Haut-Saint-François,La Patrie,2441027,22
+2020,Le Haut-Saint-François,Newport,2441037,22
+2020,Le Haut-Saint-François,Ascot Corner,2441055,8
+2020,Le Haut-Saint-François,Bury,2441070,17
+2020,Le Haut-Saint-François,Weedon,2441098,18
+2020,Le Haut-Saint-François,Dudswell,2441117,14
+2020,Le Val-Saint-François,Stoke,2442005,6
+2020,Le Val-Saint-François,Saint-François-Xavier-de-Brompton,2442020,8
+2020,Le Val-Saint-François,Saint-Denis-de-Brompton,2442025,6
+2020,Le Val-Saint-François,Racine,2442032,8
+2020,Le Val-Saint-François,Bonsecours,2442040,13
+2020,Le Val-Saint-François,Sainte-Anne-de-la-Rochelle,2442050,12
+2020,Le Val-Saint-François,Maricourt,2442065,14
+2020,Le Val-Saint-François,Ulverton,2442078,13
+2020,Le Val-Saint-François,Val-Joli,2442095,9
+2020,Le Val-Saint-François,Saint-Claude,2442100,11
+2020,Coaticook,Saint-Malo,2444003,12
+2020,Coaticook,East Hereford,2444010,12
+2020,Coaticook,Saint-Herménégilde,2444015,20
+2020,Coaticook,Dixville,2444023,9
+2020,Coaticook,Barnston-Ouest,2444045,17
+2020,Coaticook,Stanstead-Est,2444050,18
+2020,Coaticook,Martinville,2444060,12
+2020,Coaticook,Compton,2444071,10
+2020,Memphrémagog,Ogden,2445020,14
+2020,Memphrémagog,Hatley,2445043,6
+2020,Memphrémagog,Sainte-Catherine-de-Hatley,2445060,7
+2020,Memphrémagog,Austin,2445085,8
+2020,Memphrémagog,Eastman,2445093,9
+2020,Memphrémagog,Bolton-Est,2445095,12
+2020,Memphrémagog,Saint-Étienne-de-Bolton,2445100,12
+2020,Brome-Missisquoi,Frelighsburg,2446010,10
+2020,Brome-Missisquoi,Saint-Armand,2446017,13
+2020,Brome-Missisquoi,Pike River,2446025,12
+2020,Brome-Missisquoi,Stanbridge Station,2446030,10
+2020,Brome-Missisquoi,Stanbridge East,2446045,12
+2020,Brome-Missisquoi,Bolton-Ouest,2446065,13
+2020,Brome-Missisquoi,East Farnham,2446085,7
+2020,Brome-Missisquoi,Brigham,2446090,9
+2020,Brome-Missisquoi,Saint-Ignace-de-Stanbridge,2446095,7
+2020,Brome-Missisquoi,Notre-Dame-de-Stanbridge,2446100,10
+2020,Brome-Missisquoi,Sainte-Sabine,2446105,9
+2020,La Haute-Yamaska,Saint-Alphonse-de-Granby,2447010,5
+2020,La Haute-Yamaska,Saint-Joachim-de-Shefford,2447040,12
+2020,La Haute-Yamaska,Roxton Pond,2447047,9
+2020,La Haute-Yamaska,Sainte-Cécile-de-Milton,2447055,9
+2020,Acton,Béthanie,2448005,17
+2020,Acton,Upton,2448038,10
+2020,Acton,Saint-Théodore-d'Acton,2448045,11
+2020,Drummond,Saint-Félix-de-Kingsey,2449005,14
+2020,Drummond,Durham-Sud,2449015,15
+2020,Drummond,Lefebvre,2449020,12
+2020,Drummond,L'Avenir,2449025,13
+2020,Drummond,Saint-Lucien,2449030,13
+2020,Drummond,Wickham,2449040,11
+2020,Drummond,Saint-Germain-de-Grantham,2449048,10
+2020,Drummond,Saint-Cyrille-de-Wendover,2449070,9
+2020,Drummond,Saint-Eugène,2449105,13
+2020,Drummond,Saint-Guillaume,2449113,16
+2020,Drummond,Saint-Bonaventure,2449125,13
+2020,Nicolet-Yamaska,Sainte-Eulalie,2450005,14
+2020,Nicolet-Yamaska,Aston-Jonction,2450013,15
+2020,Nicolet-Yamaska,Saint-Wenceslas,2450023,13
+2020,Nicolet-Yamaska,Saint-Célestin,2450035,10
+2020,Nicolet-Yamaska,Saint-Léonard-d'Aston,2450042,13
+2020,Nicolet-Yamaska,Sainte-Monique,2450057,17
+2020,Nicolet-Yamaska,Grand-Saint-Esprit,2450065,9
+2020,Nicolet-Yamaska,La Visitation-de-Yamaska,2450085,10
+2020,Nicolet-Yamaska,Baie-du-Febvre,2450100,14
+2020,Nicolet-Yamaska,Pierreville,2450113,22
+2020,Nicolet-Yamaska,Saint-François-du-Lac,2450128,16
+2020,Maskinongé,Maskinongé,2451008,15
+2020,Maskinongé,Yamachiche,2451020,11
+2020,Maskinongé,Sainte-Ursule,2451040,20
+2020,Maskinongé,Saint-Justin,2451045,19
+2020,Maskinongé,Saint-Édouard-de-Maskinongé,2451050,19
+2020,Maskinongé,Sainte-Angèle-de-Prémont,2451055,20
+2020,Maskinongé,Saint-Paulin,2451060,19
+2020,Maskinongé,Saint-Mathieu-du-Parc,2451070,13
+2020,Maskinongé,Saint-Élie-de-Caxton,2451075,17
+2020,Maskinongé,Charette,2451080,16
+2020,Maskinongé,Saint-Boniface,2451085,9
+2020,D'Autray,Lanoraie,2452017,11
+2020,D'Autray,Sainte-Élisabeth,2452030,12
+2020,D'Autray,Sainte-Geneviève-de-Berthier,2452040,11
+2020,D'Autray,Saint-Ignace-de-Loyola,2452045,11
+2020,D'Autray,La Visitation-de-l'Île-Dupas,2452050,10
+2020,D'Autray,Saint-Cuthbert,2452062,17
+2020,D'Autray,Saint-Gabriel-de-Brandon,2452085,17
+2020,D'Autray,Mandeville,2452095,21
+2020,Pierre-De Saurel,Saint-David,2453005,16
+2020,Pierre-De Saurel,Saint-Aimé,2453015,8
+2020,Pierre-De Saurel,Saint-Robert,2453020,13
+2020,Pierre-De Saurel,Sainte-Victoire-de-Sorel,2453025,9
+2020,Pierre-De Saurel,Saint-Roch-de-Richelieu,2453040,7
+2020,Pierre-De Saurel,Sainte-Anne-de-Sorel,2453065,7
+2020,Pierre-De Saurel,Yamaska,2453072,13
+2020,Les Maskoutains,Saint-Damase,2454017,7
+2020,Les Maskoutains,La Présentation,2454035,6
+2020,Les Maskoutains,Saint-Dominique,2454060,8
+2020,Les Maskoutains,Saint-Valérien-de-Milton,2454065,10
+2020,Les Maskoutains,Saint-Liboire,2454072,6
+2020,Les Maskoutains,Saint-Simon,2454090,7
+2020,Les Maskoutains,Sainte-Hélène-de-Bagot,2454095,9
+2020,Les Maskoutains,Saint-Hugues,2454100,9
+2020,Les Maskoutains,Saint-Barnabé-Sud,2454105,6
+2020,Les Maskoutains,Saint-Jude,2454110,7
+2020,Les Maskoutains,Saint-Bernard-de-Michaudville,2454115,13
+2020,Les Maskoutains,Saint-Louis,2454120,11
+2020,Les Maskoutains,Saint-Marcel-de-Richelieu,2454125,14
+2020,Rouville,Ange-Gardien,2455008,8
+2020,Rouville,Saint-Paul-d'Abbotsford,2455015,11
+2020,Rouville,Sainte-Angèle-de-Monnoir,2455030,7
+2020,Rouville,Rougemont,2455037,9
+2020,Rouville,Saint-Mathias-sur-Richelieu,2455065,7
+2020,Le Haut-Richelieu,Venise-en-Québec,2456005,14
+2020,Le Haut-Richelieu,Saint-Georges-de-Clarenceville,2456010,12
+2020,Le Haut-Richelieu,Noyan,2456015,14
+2020,Le Haut-Richelieu,Lacolle,2456023,11
+2020,Le Haut-Richelieu,Saint-Valentin,2456030,9
+2020,Le Haut-Richelieu,Saint-Paul-de-l'Île-aux-Noix,2456035,12
+2020,Le Haut-Richelieu,Henryville,2456042,12
+2020,Le Haut-Richelieu,Saint-Sébastien,2456050,9
+2020,Le Haut-Richelieu,Saint-Alexandre,2456055,6
+2020,Le Haut-Richelieu,Saint-Blaise-sur-Richelieu,2456065,7
+2020,Le Haut-Richelieu,Mont-Saint-Grégoire,2456097,6
+2020,Le Haut-Richelieu,Sainte-Brigide-d'Iberville,2456105,9
+2020,La Vallée-du-Richelieu,McMasterville,2457025,6
+2020,La Vallée-du-Richelieu,Saint-Jean-Baptiste,2457033,9
+2020,La Vallée-du-Richelieu,Saint-Mathieu-de-Beloeil,2457045,4
+2020,La Vallée-du-Richelieu,Saint-Marc-sur-Richelieu,2457050,5
+2020,La Vallée-du-Richelieu,Saint-Charles-sur-Richelieu,2457057,7
+2020,La Vallée-du-Richelieu,Saint-Denis-sur-Richelieu,2457068,8
+2020,La Vallée-du-Richelieu,Saint-Antoine-sur-Richelieu,2457075,5
+2020,Marguerite-D'Youville,Verchères,2459025,7
+2020,Marguerite-D'Youville,Calixa-Lavallée,2459030,10
+2020,Joliette,Saint-Paul,2461005,7
+2020,Joliette,Crabtree,2461013,10
+2020,Joliette,Saint-Thomas,2461027,8
+2020,Joliette,Saint-Ambroise-de-Kildare,2461040,10
+2020,Joliette,Notre-Dame-de-Lourdes,2461045,11
+2020,Joliette,Sainte-Mélanie,2461050,10
+2020,Matawinie,Saint-Félix-de-Valois,2462007,13
+2020,Matawinie,Saint-Jean-de-Matha,2462015,14
+2020,Matawinie,Sainte-Béatrix,2462020,14
+2020,Matawinie,Saint-Alphonse-Rodriguez,2462025,15
+2020,Matawinie,Sainte-Marcelline-de-Kildare,2462030,12
+2020,Matawinie,Rawdon,2462037,15
+2020,Matawinie,Chertsey,2462047,19
+2020,Matawinie,Entrelacs,2462053,17
+2020,Matawinie,Notre-Dame-de-la-Merci,2462055,18
+2020,Matawinie,Saint-Donat,2462060,14
+2020,Matawinie,Saint-Côme,2462065,17
+2020,Matawinie,Sainte-Émélie-de-l'Énergie,2462070,19
+2020,Matawinie,Saint-Zénon,2462080,21
+2020,Matawinie,Saint-Michel-des-Saints,2462085,17
+2020,Montcalm,Sainte-Marie-Salomé,2463005,9
+2020,Montcalm,Saint-Jacques,2463013,12
+2020,Montcalm,Saint-Alexis,2463023,10
+2020,Montcalm,Saint-Esprit,2463030,13
+2020,Montcalm,Saint-Roch-de-l'Achigan,2463035,11
+2020,Montcalm,Saint-Roch-Ouest,2463040,5
+2020,Montcalm,Saint-Calixte,2463055,17
+2020,Montcalm,Sainte-Julienne,2463060,11
+2020,Montcalm,Saint-Liguori,2463065,10
+2020,Roussillon,Saint-Mathieu,2467005,8
+2020,Les Jardins-de-Napierville,Saint-Bernard-de-Lacolle,2468005,11
+2020,Les Jardins-de-Napierville,Sainte-Clotilde,2468020,11
+2020,Les Jardins-de-Napierville,Saint-Patrice-de-Sherrington,2468025,10
+2020,Les Jardins-de-Napierville,Napierville,2468030,8
+2020,Les Jardins-de-Napierville,Saint-Cyprien-de-Napierville,2468035,8
+2020,Les Jardins-de-Napierville,Saint-Jacques-le-Mineur,2468040,7
+2020,Les Jardins-de-Napierville,Saint-Édouard,2468045,8
+2020,Les Jardins-de-Napierville,Saint-Michel,2468050,6
+2020,Le Haut-Saint-Laurent,Franklin,2469010,14
+2020,Le Haut-Saint-Laurent,Saint-Chrysostome,2469017,15
+2020,Le Haut-Saint-Laurent,Howick,2469025,12
+2020,Le Haut-Saint-Laurent,Ormstown,2469037,14
+2020,Le Haut-Saint-Laurent,Hinchinbrooke,2469045,17
+2020,Le Haut-Saint-Laurent,Elgin,2469050,16
+2020,Le Haut-Saint-Laurent,Sainte-Barbe,2469065,11
+2020,Le Haut-Saint-Laurent,Saint-Anicet,2469070,14
+2020,Beauharnois-Salaberry,Saint-Urbain-Premier,2470005,6
+2020,Beauharnois-Salaberry,Sainte-Martine,2470012,9
+2020,Beauharnois-Salaberry,Saint-Étienne-de-Beauharnois,2470030,7
+2020,Beauharnois-Salaberry,Saint-Stanislas-de-Kostka,2470040,9
+2020,Vaudreuil-Soulanges,Rivière-Beaudette,2471005,9
+2020,Vaudreuil-Soulanges,Saint-Télesphore,2471015,20
+2020,Vaudreuil-Soulanges,Saint-Polycarpe,2471020,10
+2020,Vaudreuil-Soulanges,Saint-Zotique,2471025,7
+2020,Vaudreuil-Soulanges,Les Coteaux,2471033,7
+2020,Vaudreuil-Soulanges,Saint-Clet,2471045,10
+2020,Vaudreuil-Soulanges,Les Cèdres,2471050,6
+2020,Vaudreuil-Soulanges,Terrasse-Vaudreuil,2471075,6
+2020,Vaudreuil-Soulanges,Sainte-Marthe,2471110,11
+2020,Vaudreuil-Soulanges,Sainte-Justine-de-Newton,2471115,18
+2020,Vaudreuil-Soulanges,Très-Saint-Rédempteur,2471125,6
+2020,Deux-Montagnes,Pointe-Calumet,2472020,9
+2020,Deux-Montagnes,Saint-Joseph-du-Lac,2472025,7
+2020,Deux-Montagnes,Oka,2472032,9
+2020,Deux-Montagnes,Saint-Placide,2472043,14
+2020,La Rivière-du-Nord,Sainte-Sophie,2475028,8
+2020,La Rivière-du-Nord,Saint-Hippolyte,2475045,8
+2020,Argenteuil,Saint-André-d'Argenteuil,2476008,13
+2020,Argenteuil,Mille-Isles,2476030,8
+2020,Argenteuil,Grenville-sur-la-Rouge,2476052,17
+2020,Les Pays-d'en-Haut,Piedmont,2477030,9
+2020,Les Pays-d'en-Haut,Morin-Heights,2477050,10
+2020,Les Pays-d'en-Haut,Wentworth-Nord,2477060,18
+2020,Les Pays-d'en-Haut,Saint-Adolphe-d'Howard,2477065,15
+2020,Les Laurentides,Val-Morin,2478005,13
+2020,Les Laurentides,Lantier,2478015,17
+2020,Les Laurentides,Sainte-Lucie-des-Laurentides,2478020,15
+2020,Les Laurentides,Ivry-sur-le-Lac,2478042,12
+2020,Les Laurentides,Saint-Faustin--Lac-Carré,2478047,11
+2020,Les Laurentides,Montcalm,2478055,13
+2020,Les Laurentides,Huberdeau,2478065,18
+2020,Les Laurentides,Lac-Supérieur,2478095,13
+2020,Les Laurentides,Val-des-Lacs,2478100,15
+2020,Les Laurentides,La Conception,2478115,12
+2020,Les Laurentides,Labelle,2478120,15
+2020,Les Laurentides,La Minerve,2478130,17
+2020,Antoine-Labelle,Notre-Dame-du-Laus,2479005,16
+2020,Antoine-Labelle,Notre-Dame-de-Pontmain,2479010,18
+2020,Antoine-Labelle,Lac-du-Cerf,2479015,20
+2020,Antoine-Labelle,Saint-Aimé-du-Lac-des-Îles,2479022,13
+2020,Antoine-Labelle,Kiamika,2479025,17
+2020,Antoine-Labelle,Nominingue,2479030,18
+2020,Antoine-Labelle,La Macaza,2479047,16
+2020,Antoine-Labelle,L'Ascension,2479050,21
+2020,Antoine-Labelle,Chute-Saint-Philippe,2479065,19
+2020,Antoine-Labelle,Lac-des-Écorces,2479078,16
+2020,Antoine-Labelle,Ferme-Neuve,2479097,20
+2020,Antoine-Labelle,Lac-Saint-Paul,2479105,22
+2020,Antoine-Labelle,Mont-Saint-Michel,2479110,17
+2020,Antoine-Labelle,Sainte-Anne-du-Lac,2479115,28
+2020,Papineau,Fassett,2480005,18
+2020,Papineau,Montebello,2480010,15
+2020,Papineau,Notre-Dame-de-Bonsecours,2480015,11
+2020,Papineau,Notre-Dame-de-la-Paix,2480020,19
+2020,Papineau,Saint-André-Avellin,2480027,15
+2020,Papineau,Papineauville,2480037,15
+2020,Papineau,Plaisance,2480045,14
+2020,Papineau,Mayo,2480065,12
+2020,Papineau,Saint-Sixte,2480070,12
+2020,Papineau,Ripon,2480078,11
+2020,Papineau,Mulgrave-et-Derry,2480085,13
+2020,Papineau,Montpellier,2480090,16
+2020,Papineau,Lac-Simon,2480095,11
+2020,Papineau,Chénéville,2480103,22
+2020,Papineau,Namur,2480110,28
+2020,Papineau,Boileau,2480115,17
+2020,Papineau,Saint-Émile-de-Suffolk,2480125,24
+2020,Papineau,Lac-des-Plages,2480130,21
+2020,Papineau,Duhamel,2480135,15
+2020,Papineau,Val-des-Bois,2480140,16
+2020,Papineau,Bowman,2480145,14
+2020,Les Collines-de-l'Outaouais,L'Ange-Gardien,2482005,5
+2020,Les Collines-de-l'Outaouais,Notre-Dame-de-la-Salette,2482010,13
+2020,Les Collines-de-l'Outaouais,Val-des-Monts,2482015,7
+2020,Les Collines-de-l'Outaouais,Cantley,2482020,3
+2020,Les Collines-de-l'Outaouais,Chelsea,2482025,4
+2020,Les Collines-de-l'Outaouais,Pontiac,2482030,8
+2020,Les Collines-de-l'Outaouais,La Pêche,2482035,10
+2020,La Vallée-de-la-Gatineau,Denholm,2483005,12
+2020,La Vallée-de-la-Gatineau,Kazabazua,2483015,19
+2020,La Vallée-de-la-Gatineau,Lac-Sainte-Marie,2483020,13
+2020,La Vallée-de-la-Gatineau,Cayamant,2483040,20
+2020,La Vallée-de-la-Gatineau,Blue Sea,2483045,16
+2020,La Vallée-de-la-Gatineau,Bouchette,2483050,20
+2020,La Vallée-de-la-Gatineau,Sainte-Thérèse-de-la-Gatineau,2483055,12
+2020,La Vallée-de-la-Gatineau,Messines,2483060,14
+2020,La Vallée-de-la-Gatineau,Déléage,2483070,17
+2020,La Vallée-de-la-Gatineau,Egan-Sud,2483075,13
+2020,La Vallée-de-la-Gatineau,Bois-Franc,2483085,10
+2020,La Vallée-de-la-Gatineau,Montcerf-Lytton,2483088,18
+2020,La Vallée-de-la-Gatineau,Grand-Remous,2483095,18
+2020,Pontiac,Bristol,2484005,15
+2020,Pontiac,Shawville,2484010,19
+2020,Pontiac,Clarendon,2484015,17
+2020,Pontiac,Bryson,2484025,16
+2020,Pontiac,Campbell's Bay,2484030,22
+2020,Pontiac,L'Île-du-Grand-Calumet,2484035,18
+2020,Pontiac,Litchfield,2484040,15
+2020,Pontiac,Thorne,2484045,20
+2020,Pontiac,Otter Lake,2484055,28
+2020,Pontiac,Mansfield-et-Pontefract,2484065,12
+2020,Pontiac,Waltham,2484070,25
+2020,Pontiac,L'Isle-aux-Allumettes,2484082,15
+2020,Témiscamingue,Kipawa,2485010,12
+2020,Témiscamingue,Béarn,2485020,16
+2020,Témiscamingue,Duhamel-Ouest,2485030,6
+2020,Témiscamingue,Lorrainville,2485037,12
+2020,Témiscamingue,Saint-Bruno-de-Guigues,2485045,12
+2020,Témiscamingue,Laverlochère-Angliers,2485052,15
+2020,Témiscamingue,Fugèreville,2485055,16
+2020,Témiscamingue,Laforce,2485070,26
+2020,Témiscamingue,Saint-Eugène-de-Guigues,2485085,13
+2020,Témiscamingue,Notre-Dame-du-Nord,2485090,17
+2020,Témiscamingue,Rémigny,2485105,16
+2020,Abitibi-Ouest,Rapide-Danseur,2487010,8
+2020,Abitibi-Ouest,Roquemaure,2487015,20
+2020,Abitibi-Ouest,Gallichan,2487020,11
+2020,Abitibi-Ouest,Palmarolle,2487025,12
+2020,Abitibi-Ouest,Sainte-Germaine-Boulé,2487030,10
+2020,Abitibi-Ouest,Poularies,2487035,11
+2020,Abitibi-Ouest,Taschereau,2487042,17
+2020,Abitibi-Ouest,Authier,2487050,18
+2020,Abitibi-Ouest,Clerval,2487075,17
+2020,Abitibi-Ouest,La Reine,2487080,10
+2020,Abitibi-Ouest,Dupuy,2487085,11
+2020,Abitibi-Ouest,Chazel,2487095,11
+2020,Abitibi-Ouest,Authier-Nord,2487100,13
+2020,Abitibi-Ouest,Normétal,2487115,22
+2020,Abitibi,Barraute,2488022,15
+2020,Abitibi,La Corne,2488030,6
+2020,Abitibi,La Motte,2488045,9
+2020,Abitibi,Saint-Mathieu-d'Harricana,2488050,5
+2020,Abitibi,Saint-Félix-de-Dalquier,2488060,9
+2020,Abitibi,Saint-Dominique-du-Rosaire,2488065,10
+2020,Abitibi,Berry,2488070,12
+2020,Abitibi,Sainte-Gertrude-Manneville,2488085,8
+2020,Abitibi,Preissac,2488090,6
+2020,La Vallée-de-l'Or,Rivière-Héva,2489010,6
+2020,La Tuque,La Bostonnais,2490017,12
+2020,Le Domaine-du-Roy,Lac-Bouchette,2491005,23
+2020,Le Domaine-du-Roy,Saint-François-de-Sales,2491015,22
+2020,Le Domaine-du-Roy,Chambord,2491020,13
+2020,Le Domaine-du-Roy,Sainte-Hedwidge,2491030,12
+2020,Le Domaine-du-Roy,Saint-Prime,2491035,10
+2020,Maria-Chapdelaine,Péribonka,2492010,13
+2020,Maria-Chapdelaine,Albanel,2492030,10
+2020,Maria-Chapdelaine,Saint-Thomas-Didyme,2492045,15
+2020,Maria-Chapdelaine,Saint-Edmond-les-Plaines,2492050,19
+2020,Maria-Chapdelaine,Girardville,2492055,13
+2020,Maria-Chapdelaine,Saint-Eugène-d'Argentenay,2492065,15
+2020,Maria-Chapdelaine,Saint-Stanislas,2492070,18
+2020,Lac-Saint-Jean-Est,Hébertville,2493020,13
+2020,Lac-Saint-Jean-Est,Saint-Bruno,2493030,8
+2020,Lac-Saint-Jean-Est,Saint-Gédéon,2493035,9
+2020,Lac-Saint-Jean-Est,Saint-Nazaire,2493045,11
+2020,Lac-Saint-Jean-Est,Labrecque,2493055,9
+2020,Lac-Saint-Jean-Est,Lamarche,2493060,18
+2020,Lac-Saint-Jean-Est,Saint-Henri-de-Taillon,2493070,11
+2020,Lac-Saint-Jean-Est,Sainte-Monique,2493075,13
+2020,Lac-Saint-Jean-Est,Saint-Ludger-de-Milot,2493080,15
+2020,Le Saguenay-et-son-Fjord,Petit-Saguenay,2494205,26
+2020,Le Saguenay-et-son-Fjord,L'Anse-Saint-Jean,2494210,14
+2020,Le Saguenay-et-son-Fjord,Rivière-Éternité,2494215,12
+2020,Le Saguenay-et-son-Fjord,Ferland-et-Boilleau,2494220,11
+2020,Le Saguenay-et-son-Fjord,Saint-Félix-d'Otis,2494225,10
+2020,Le Saguenay-et-son-Fjord,Saint-Fulgence,2494235,12
+2020,Le Saguenay-et-son-Fjord,Saint-David-de-Falardeau,2494245,11
+2020,Le Saguenay-et-son-Fjord,Bégin,2494250,16
+2020,Le Saguenay-et-son-Fjord,Saint-Ambroise,2494255,11
+2020,Le Saguenay-et-son-Fjord,Saint-Charles-de-Bourget,2494260,11
+2020,Le Saguenay-et-son-Fjord,Larouche,2494265,8
+2020,La Haute-Côte-Nord,Sacré-Coeur,2495010,11
+2020,La Haute-Côte-Nord,Les Bergeronnes,2495018,12
+2020,La Haute-Côte-Nord,Les Escoumins,2495025,12
+2020,La Haute-Côte-Nord,Longue-Rive,2495032,24
+2020,La Haute-Côte-Nord,Portneuf-sur-Mer,2495040,21
+2020,La Haute-Côte-Nord,Colombier,2495050,21
+2020,Manicouagan,Franquelin,2496015,12
+2020,Minganie--Le Golfe-du-Saint-Laurent,Blanc-Sablon,2498005,7
+2020,Minganie--Le Golfe-du-Saint-Laurent,Bonne-Espérance,2498010,7
+2020,Minganie--Le Golfe-du-Saint-Laurent,Saint-Augustin,2498012,14
+2020,Minganie--Le Golfe-du-Saint-Laurent,Gros-Mécatina,2498014,18
+2020,Minganie--Le Golfe-du-Saint-Laurent,Côte-Nord-du-Golfe-du-Saint-Laurent,2498015,11
+2020,Minganie--Le Golfe-du-Saint-Laurent,Natashquan,2498025,9
+2020,Minganie--Le Golfe-du-Saint-Laurent,Havre-Saint-Pierre,2498040,5
+2020,Minganie--Le Golfe-du-Saint-Laurent,Longue-Pointe-de-Mingan,2498045,11
+2020,Minganie--Le Golfe-du-Saint-Laurent,Rivière-au-Tonnerre,2498055,15

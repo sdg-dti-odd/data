@@ -1,87 +1,113 @@
+﻿analysis: >-
+  Une analyse des tendances concernant la qualité de l'air à Montréal montre
+  qu'il y a eu des progrès dans la réduction du nombre de jours de mauvaise
+  qualité de l'air depuis 2015. En effet, selon les données disponibles, le
+  nombre de jours où la qualité de l'air était considérée comme mauvaise a
+  diminué au fil des ans.
+
+
+  Cependant, malgré cette tendance à la baisse, une légère augmentation a été
+  observée en 2019, suscitant des préoccupations quant à une possible inversion
+  de la tendance. Heureusement, cette augmentation a été suivie d'une diminution
+  importante en 2020 et 2021, probablement due à la pandémie de COVID-19 et aux
+  mesures de confinement qui ont réduit la circulation automobile et les
+  émissions de polluants.
+
+
+  Ces données montrent que la communauté de Montréal a réalisé des progrès
+  importants dans la lutte contre la pollution de l'air, mais que des efforts
+  supplémentaires sont nécessaires pour maintenir cette tendance à la baisse. 
+community: >-
+  La communauté de Montréal a fait des progrès significatifs dans la lutte
+  contre la pollution de l'air, mais il reste encore des défis à relever. Des
+  mesures ont été mises en place pour réduire les émissions de gaz à effet de
+  serre, notamment en encourageant l'utilisation de modes de transport plus
+  respectueux de l'environnement, en améliorant la qualité des carburants et en
+  réglementant les émissions industrielles.
+
+
+  Cependant, certains défis persistent, notamment la densité de la circulation
+  automobile dans la ville, qui continue de contribuer à la pollution de l'air.
+  De plus, la présence de sources de pollution à l'extérieur de la ville, comme
+  les usines et les centrales électriques, peut également affecter la qualité de
+  l'air à Montréal.
+
+
+  La communauté doit continuer à travailler ensemble pour relever ces défis et
+  pour faire progresser les efforts de réduction de la pollution de l'air. Cela
+  peut inclure des initiatives telles que des programmes de sensibilisation et
+  de formation pour encourager les citoyens à adopter des comportements plus
+  respectueux de l'environnement, ainsi que des politiques et des règlements
+  plus stricts pour les entreprises et les industries qui polluent l'air. En
+  travaillant ensemble, la communauté peut continuer à faire des progrès
+  significatifs pour améliorer la qualité de l'air et protéger la santé et le
+  bien-être des citoyens de Montréal.
+initiatives: >-
+  Pour atteindre l'objectif de développement durable consistant à réduire le
+  nombre de jours où la qualité de l'air est mauvaise, la communauté de Montréal
+  doit se mobiliser pour mettre en place des mesures efficaces. Parmi ces
+  mesures, on peut citer l'amélioration des transports en commun, la promotion
+  de modes de transport alternatifs comme le vélo ou la marche, l'adoption de
+  pratiques industrielles plus respectueuses de l'environnement, la réduction de
+  la consommation d'énergie et l'augmentation de la production d'énergie
+  renouvelable.
+SDG_INDICATOR_INFO: ''
 SDG_GOAL: >-
-  Objectif 13: Prendre d’urgence des mesures pour lutter contre les changements climatiques et leurs répercussions
+  Objectif 13: Prendre d’urgence des mesures pour lutter contre les changements
+  climatiques et leurs répercussions
 SDG_TARGET: >-
   ## CHANGEMENTS CLIMATIQUES
 
-  Enjeu 13.1: Adopter des mesures de réduction des émissions de gaz à effet de serre
+  Enjeu 13.1: Adopter des mesures de réduction des émissions de gaz à effet de
+  serre
 SDG_INDICATOR: >-
-  Indicateur 13.1.1: Nombre de jours de mauvaise qualité de l'air (MQA) à Montréal
-
-SDG_SERIES_DESCR: >-
-
-META_LAST_UPDATE: >-
-
-SDG_RELATED_INDICATORS: >-
-
-SDG_CUSTODIAN_AGENCIES: >-
-
-CONTACT_ORGANISATION: >-
-
-CONTACT_NAME: >-
-
-ORGANISATION_UNIT: >-
-
-CONTACT_FUNCT: >-
-
-CONTACT_PHONE: >-
-
-CONTACT_MAIL: >-
-
-CONTACT_EMAIL: >-
-
-STAT_CONC_DEF: >- 
-
-UNIT_MEASURE: >-
-
-CLASS_SYSTEM: >-
-
+  Indicateur 13.1.1: Nombre de jours de mauvaise qualité de l'air (MQA) à
+  Montréal
+SDG_SERIES_DESCR: ''
+META_LAST_UPDATE: ''
+SDG_RELATED_INDICATORS: ''
+CONTACT: ''
+CONTACT_ORGANISATION: ''
+CONTACT_NAME: ''
+ORGANISATION_UNIT: ''
+CONTACT_FUNCT: ''
+CONTACT_PHONE: ''
+CONTACT_MAIL: ''
+CONTACT_EMAIL: ''
+IND_DEF_CON_CLASS: ''
+STAT_CONC_DEF: ''
+UNIT_MEASURE: ''
+CLASS_SYSTEM: ''
+SRC_TYPE_COLL_METHOD: ''
 SOURCE_TYPE: >-
   ## Données Québec
 
-  Les données de l'indicateur 13.1.1 ont été importées de Données Québec avec un API.
-  
-  
+  Les données de l'indicateur 13.1.1 ont été importées de Données Québec avec un
+  API.
+
+
   Le fichier est exploité sans être téléchargé.
 
 
-  ID: [6005d7d0-47ae-4c23-b976-ae4acf5ab8e7](https://www.donneesquebec.ca/recherche/dataset/vmtl-rsqa-bilans-annuels-qualite-air/resource/6005d7d0-47ae-4c23-b976-ae4acf5ab8e7)
-
-COLL_METHOD: >-
-
-FREQ_COLL: >-
-
-REL_CAL_POLICY: >-
-
-DATA_SOURCE: >-
-
-COMPILING_ORG: >-
-
-INST_MANDATE: >-
-
-RATIONALE: >-
-
-REC_USE_LIM: >-
-
-DATA_COMP: >-
-
-DATA_VALIDATION: >-
-
-ADJUSTMENT: >-
-
-IMPUTATION: >-
-
-REG_AGG: >-
-
-DOC_METHOD: >-
-
-QUALITY_MGMNT: >-
-
-QUALITY_ASSURE: >-
-
-QUALITY_ASSMNT: >-
-
-COVERAGE: >-
-
-COMPARABILITY: >-
-
-OTHER_DOC: >-
+  ID:
+  [6005d7d0-47ae-4c23-b976-ae4acf5ab8e7](https://www.donneesquebec.ca/recherche/dataset/vmtl-rsqa-bilans-annuels-qualite-air/resource/6005d7d0-47ae-4c23-b976-ae4acf5ab8e7)
+COLL_METHOD: ''
+FREQ_COLL: ''
+REL_CAL_POLICY: ''
+DATA_SOURCE: ''
+COMPILING_ORG: ''
+INST_MANDATE: ''
+OTHER_METHOD: ''
+RATIONALE: ''
+REC_USE_LIM: ''
+DATA_COMP: ''
+DATA_VALIDATION: ''
+DOC_METHOD: ''
+QUALITY_MGMNT: ''
+QUALITY_ASSURE: ''
+QUALITY_ASSMNT: ''
+COVERAGE: ''
+COMPARABILITY: ''
+OTHER_DOC: ''
+national_data_updated_date: ''
+national_metadata_updated_date: '2022-12-08'
