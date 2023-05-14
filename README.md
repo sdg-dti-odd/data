@@ -4,4 +4,4 @@ This is a data repository for the DTI-ODD project platform. This repository was 
 
 ---
 
-Ceci est un data repository pour la plateforme du projet DTI-ODD. Ce repository a été créé avec le template Open SDG. [Voir la documentation ici](https://open-sdg.readthedocs.io).
+Ceci est un service de données pour la preuve de concept de la plateforme du projet DTI-ODD. Ce dépôt a été créé avec le template Open SDG. [Voir la documentation ici](https://open-sdg.readthedocs.io).
